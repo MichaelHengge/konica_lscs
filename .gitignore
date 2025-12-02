@@ -1,0 +1,6 @@
+src/konica_lscs/sdk_bin/*.dll
+src/konica_lscs/sdk_bin/*.config
+src/konica_lscs/sdk_bin/calccolor/x64/*.dll
+src/konica_lscs/sdk_bin/calccolor/x64/*.obs
+src/konica_lscs/sdk_bin/calccolor/x64/*.uwp
+src/konica_lscs/sdk_bin/IDMap/*.xml
