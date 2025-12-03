@@ -375,6 +375,10 @@ The LS-series devices only support luminance measurements, not color.
 
 ## Troubleshooting
 
+### "loadFromRemoteSources" error
+- .Net does not like dlls from the internet
+- Run the `unblock_dll.py` tool
+
 ### "SDK not initialized" error
 - Ensure all DLL files are in the `sdk_bin` folder
 - Check that pythonnet is properly installed
@@ -438,3 +442,4 @@ Contributions are very welcome. Report any issues via Github. If anybody would l
 ## Version History
 
 - **0.1.0** - Initial release
+- **0.1.1** - Add dll unblock tool
